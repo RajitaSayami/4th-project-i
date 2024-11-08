@@ -12,9 +12,12 @@
 }
 
 .navbar {
+    position: fixed;
     background-color: #333;
     padding: 10px;
     text-align: left;
+    z-index: 1000; 
+   
 }
 
 .navbar ul {
@@ -43,7 +46,7 @@
     transition: background-color 0.3s ease;
 }
 
-/* Dropdown Menu Styles */
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -100,14 +103,7 @@
     /* background-color: aliceblue; */
         width: 500px; }
         
-/* .img{
-      position:fixed ;
-      bottom: 30px;
-      right: 5px;
-  } */
-/* #about{
-    background-color: #EFD9D1;
-} */
+
 #about{
     font-size: medium;
     box-sizing: border-box solid 2px black;
@@ -175,7 +171,7 @@
     text-align: center;
     display: inline;
     float: left;
-    padding-left: 30%;
+    padding-left: 350px;
 }
 /* .personalization:hover{
     color: #333;
@@ -185,7 +181,7 @@
     text-align: right;
     float:left;
     /* display: block; */
-    padding-left: 30%;
+    padding-left: 300px;
 }
 
 .footer-bottom{
