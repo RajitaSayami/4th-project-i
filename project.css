@@ -107,8 +107,11 @@
 #about{
     font-size: medium;
     box-sizing: border-box solid 2px black;
-    text-align: justify;
+    text-align: center;
     padding-top: 10px;
+}
+#about h5{
+    text-align: justify;
 }
 #products{
     margin: 0px;
@@ -122,8 +125,11 @@
     float: left;
     margin-bottom: 20px;
     padding: 49.5px;
-    
 }
+#product h5{
+    text-align: justify;
+}
+
 #carouselExampleFade{
     width: 400px;
     /* align-items: end; */
@@ -191,14 +197,11 @@
     color: #333;
 }
 .connect{
-    text-align: right;
+    text-align: center;
     float:left;
     /* display: block; */
     padding-left: 300px;
     align-items: center;
-}
-.connect a{
-    text-decoration: none;
 }
 
 .footer-bottom{
