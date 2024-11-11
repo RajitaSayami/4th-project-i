@@ -167,21 +167,38 @@
     float: left;
     padding-left: 20px;
 }
+
+.browse a{
+    text-decoration: none;
+}
+
+.browse a:hover{
+    text-decoration:underline;
+    color: #333;
+}
 .personalization{
     text-align: center;
     display: inline;
     float: left;
     padding-left: 350px;
 }
-/* .personalization:hover{
-    color: #333;
+.personalization a{
+    text-decoration: none;
+}
 
-} */
+.personalization a:hover{
+    text-decoration:underline;
+    color: #333;
+}
 .connect{
     text-align: right;
     float:left;
     /* display: block; */
     padding-left: 300px;
+    align-items: center;
+}
+.connect a{
+    text-decoration: none;
 }
 
 .footer-bottom{
